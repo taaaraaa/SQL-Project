@@ -1,7 +1,7 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+My project goal is to be an awesome projecter.
 
 ## Process
 ### (your step 1)
