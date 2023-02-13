@@ -5,5 +5,4 @@ What are your risk areas? Identify and describe them.
 QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 
-ERD Diagram
-![ERD diagram](C:\Users\farha\SQL project\SQL-Project\schema.png)
+![ERD Digram](schema.png)
