@@ -9,17 +9,21 @@ My project goal is to drive business insights from the data to maximize revenue
 
 
 ## Process
-### Loading the data
-### Cleaning the data
+- Loading the data
+- Cleaning the data (Removing duplicate rows, removing empty columns, deviding price by 10^6)
+- Transforming the data
+- Quality Assurance
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
-
+- Top 10 best selling product
+- Best Chanell driving traffic to the website
+- Answering 5 questions in the starting_with_questions.md
 ## Challenges 
 - Configuring my first github repo
 - Loading data
-- Defining primary key fro the first two tables
+- Defining primary key for some of the tables
 
 ## Future Goals
-- More complex insights
-- More data cleaning
+- Driving More complex insights
+- Writing More complex SQL functions
+- Doing More data cleaning
