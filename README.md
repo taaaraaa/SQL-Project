@@ -4,7 +4,7 @@
 My project goal is to drive business insights from the data to maximize revenue
 
 ## ERD Diagram
-![ERD Digram](schema.png "ERD Diagram")
+![ERD Digram](ERD.png "ERD Diagram")
 
 
 
