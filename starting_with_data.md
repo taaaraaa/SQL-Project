@@ -37,38 +37,22 @@ SELECT SUM(totalTransactionRevenue) AS totalRevenue,v2ProductName
 ```
 Answer:
 
-Reusable Shopping Bag
+- Reusable Shopping Bag
 
-NestÂ® Learning Thermostat 3rd Gen-USA - Stainless Steel
+- NestÂ® Learning Thermostat 3rd Gen-USA - Stainless Steel
 
-NestÂ® Cam Outdoor Security Camera - USA
+- NestÂ® Cam Outdoor Security Camera - USA
 
-NestÂ® Cam Indoor Security Camera - USA
+- NestÂ® Cam Indoor Security Camera - USA
 
-Google Bongo Cupholder Bluetooth Speaker
+- Google Bongo Cupholder Bluetooth Speaker
 
-Leatherette Journal
+- Leatherette Journal
 
-Crunch Noise Dog Toy
+- Crunch Noise Dog Toy
 
-NestÂ® Protect Smoke + CO Black Wired Alarm-USA
+- NestÂ® Protect Smoke + CO Black Wired Alarm-USA
 
-SPF-15 Slim & Slender Lip Balm
+- SPF-15 Slim & Slender Lip Balm
 
-NestÂ® Protect Smoke + CO White Wired Alarm-USA
-
-
-
-## Question 4: 
-
-SQL Queries:
-
-Answer:
-
-
-
-## Question 5: 
-
-SQL Queries:
-
-Answer:
+- NestÂ® Protect Smoke + CO White Wired Alarm-USA
