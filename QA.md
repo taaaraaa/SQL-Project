@@ -1,6 +1,6 @@
 # Risk Areas
 What are your risk areas? Identify and describe them.
-- One of the risk areas is the deletion of the huge amount of null data. What if these data were important?! For example, due to lack of information, I assumed that all currency units are in USD, but it might not be 100% accurate. According to the [cleaning_data file](/cleaning_data.md), we cleaned following data:
+- One of the major risk areas is the deletion of the huge amount of null data. What if these data were important?! For example, due to lack of information, I assumed that all currency units are in USD, but it might not be 100% accurate. According to the [cleaning_data file](/cleaning_data.md), we cleaned following data:
 	- 5 columns in sales_report table
 	- 16 columns in all_sessions table
 	- 4 column of analytics table
@@ -42,5 +42,20 @@ Look at the results:
 
 ![Units_sold column information](/data/Units_sold_column.png)
 
+Another table that I identified with missing important value, was "all_sessions table"! In this table also, we had some missing values! Although, it was not significant, but because it is about price and revenue, even small amount counts!
 
+``` SQL
+SELECT
+   COUNT (*) AS ZERO_Priced_Products,
+   (SELECT
+		COUNT(*) AS Number_Of_Rows
+		FROM all_sessions)
+FROM
+  all_sessions
+  where productprice=0;
+```
+![missing price information](/data/productprice_missing_values.png)
+## 2. Are my data Unique?
+This step was accurately done by defining Primary keys for each table. Repetitive data was recognized and removed in [cleaning_data](/cleaning_data.md) step. An overview of the tables, primary keys and their relationship can be seen in the ERD diagram in [Readme section](/README.md). 
 
+## 3. Are my data Consistent?
