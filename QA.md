@@ -40,7 +40,7 @@ SELECT
 ```
 Look at the results:
 
-[Units_sold column information](/data/Units_sold_column.png)
+![Units_sold column information](/data/Units_sold_column.png)
 
 
 
