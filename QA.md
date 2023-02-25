@@ -42,6 +42,17 @@ Look at the results:
 
 ![Units_sold column information](/data/Units_sold_column.png)
 
+In this table, analytics, I also realized that, although not null, there are no values in  socialengagementtype column. So this column was dropped!
+
+``` SQL
+SELECT
+	 COUNT(*),
+	(SELECT COUNT(*) From analytics)
+From analytics
+	WHERE socialengagementtype =('Not Socially Engaged');
+```
+![socialengagementtype](/data/socialengagementtype.png)
+
 Another table that I identified with missing important value, was "all_sessions table"! In this table also, we had some missing values! Although, it was not significant, but because it is about price and revenue, even small amount counts!
 
 ``` SQL
@@ -59,3 +70,22 @@ FROM
 This step was accurately done by defining Primary keys for each table. Repetitive data was recognized and removed in [cleaning_data](/cleaning_data.md) step. An overview of the tables, primary keys and their relationship can be seen in the ERD diagram in [Readme section](/README.md). 
 
 ## 3. Are my data Consistent?
+
+First of all, I realized that had made a mistake in creating tables in SQL. Data type of units_sold should be integer, but it was VARCHAR, so by the following code, it was revised.
+
+``` SQL
+ALTER TABLE analytics
+ALTER COLUMN units_sold TYPE INT
+USING units_sold::integer;
+```
+
+Also, in order to check that countries and cities in all_sessions table are consistent with each other, an aggregate function was used to see the results. It seemed that data was consistent, but further investigation is required.
+
+``` SQL
+SELECT 
+	country,city 
+FROM all_sessions
+	GROUP BY country,city
+	ORDER BY country;
+
+```
