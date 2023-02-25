@@ -71,7 +71,7 @@ ALTER TABLE sales_report
 ;
 ```
 - ### analytics Table
-visitId and visitStartTime are almost repetitive so the second column is dropped.
+According to the results of the following code, visitId and visitStartTime are almost repetitive so the second column is dropped.
 ``` SQL
 select visitId,visitStartTime
 from analytics
