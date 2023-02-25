@@ -9,7 +9,7 @@ My project goal is to drive business insights from the data to maximize revenue
 
 ## Process
 - Loading the data
-- Cleaning the data
+- [Data Cleaning](/cleaning_data.md) :
     - Removing duplicate rows
     - Deleting repetitive columns
     - Deleting sales_by_sku table
@@ -18,10 +18,11 @@ My project goal is to drive business insights from the data to maximize revenue
     - Rename a Column Name
     - Deleting Useless columns
 - Transforming the data
-- Quality Assurance 
+- [Quality Assurance](/QA.md) :
     - Are my data complete?
     - Are my data Unique?
     - Are my data Consistent?
+
 
 ## Results
 - Top 10 best selling product
