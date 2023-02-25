@@ -4,8 +4,7 @@
 My project goal is to drive business insights from the data to maximize revenue
 
 ## ERD Diagram
-![ERD Digram](ERD.png "ERD Diagram")
-
+![ERD Digram](/data/ERD.png "ERD Diagram")
 
 
 ## Process
@@ -22,8 +21,9 @@ My project goal is to drive business insights from the data to maximize revenue
 - Configuring my first github repo
 - Loading data
 - Defining primary key for some of the tables
+- Defining accurate data types for very big numbers. They would not go in the scope of big integer, so I had to make the type as varchar!
 
 ## Future Goals
 - Driving More complex insights
 - Writing More complex SQL functions
-- Doing More data cleaning
+- Doing More data cleaning and QA!
