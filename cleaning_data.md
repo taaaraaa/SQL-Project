@@ -137,7 +137,6 @@ ALTER TABLE all_sessions
 	DROP COLUMN itemQuantity,
 	DROP COLUMN itemRevenue,
 	DROP COLUMN transactions,
-	DROP COLUMN totalTransactionRevenue,
 	DROP COLUMN sessionQualityDim,
 	DROP COLUMN productQuantity, 
 	DROP COLUMN prodtransactionRevenue, 
